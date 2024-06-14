@@ -1,0 +1,35 @@
+/* Read.css */
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    background: #F09819;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d8d7d0bd, #ddd7d7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    justify-content: center;
+}
+
+.card-grid>.MuiCard-root {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 20px;
+}
+
+/* Ensure cards are responsive and adjust to different screen sizes */
+@media (max-width: 1200px) {
+    .card-grid>.MuiCard-root {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .card-grid>.MuiCard-root {
+        flex: 1 1 calc(100% - 20px);
+    }
+}
