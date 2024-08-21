@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     /* gap: 10px; */
-    justify-content: ;
+    justify-content:center ;
 }
 
 .card-grid>.MuiCard-root {
