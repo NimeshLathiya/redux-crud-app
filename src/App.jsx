@@ -1,5 +1,5 @@
 import "./App.css";
-import AllPost from "./Components/AllPost";
+import  from "./Components/AllPost";
 import Create from "./Components/Create";
 import CreatePost from "./Components/CreatePost";
 import Navbar from "./Components/Navbar";
